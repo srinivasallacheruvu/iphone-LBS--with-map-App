@@ -18,6 +18,7 @@
 		4DBF8FCB173BE6BB00D03E1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF8FCA173BE6BB00D03E1F /* Default-568h@2x.png */; };
 		4DBF8FCE173BE6BB00D03E1F /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8FCD173BE6BB00D03E1F /* HelloWorldViewController.m */; };
 		4DBF8FD1173BE6BB00D03E1F /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBF8FCF173BE6BB00D03E1F /* HelloWorldViewController.xib */; };
+		4DBF8FD8173BE6E700D03E1F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBF8FD7173BE6E700D03E1F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4DBF8FCC173BE6BB00D03E1F /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		4DBF8FCD173BE6BB00D03E1F /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		4DBF8FD0173BE6BB00D03E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorldViewController.xib; sourceTree = "<group>"; };
+		4DBF8FD7173BE6E700D03E1F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBF8FD8173BE6E700D03E1F /* MapKit.framework in Frameworks */,
 				4DBF8FB5173BE6BA00D03E1F /* UIKit.framework in Frameworks */,
 				4DBF8FB7173BE6BA00D03E1F /* Foundation.framework in Frameworks */,
 				4DBF8FB9173BE6BA00D03E1F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		4DBF8FA5173BE6BA00D03E1F = {
 			isa = PBXGroup;
 			children = (
+				4DBF8FD7173BE6E700D03E1F /* MapKit.framework */,
 				4DBF8FBA173BE6BA00D03E1F /* LBS */,
 				4DBF8FB3173BE6BA00D03E1F /* Frameworks */,
 				4DBF8FB1173BE6BA00D03E1F /* Products */,

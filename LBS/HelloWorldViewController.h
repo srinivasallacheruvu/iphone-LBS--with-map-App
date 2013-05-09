@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface HelloWorldViewController : UIViewController
-
+@interface HelloWorldViewController: UIViewController<CLLocationManagerDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *accuracy;
+@property (strong, nonatomic) IBOutlet UITextField *latitude;
+@property (strong, nonatomic) IBOutlet UITextField *longitute;
+@property (strong, nonatomic) IBOutlet MKMapView *mapview;
+@property(strong,nonatomic) CLLocationManager *location;
 @end
